@@ -28,7 +28,8 @@ No hablamos de IA. La construimos.»).
 |---|---|
 | Página | HTML + CSS + JavaScript en un solo `index.html`, sin framework, sin build, sin backend |
 | Tipografías | Google Fonts |
-| Imágenes | Generadas con IA (Higgsfield), servidas desde un CDN externo |
+| Fondos | Degradados CSS, sin imágenes externas |
+| Diseño | Tema claro en azules, grises y blancos (variables CSS en `:root`); barra de navegación flotante con enlaces a secciones y menú móvil |
 | Animaciones | CSS + `IntersectionObserver` (apariciones y contadores) |
 | Chat de diagnóstico | Flujo de preguntas en JS puro; envío por enlaces `wa.me` y `mailto:` |
 
@@ -59,7 +60,7 @@ Ninguna. Es una página estática sin backend ni claves.
 ## Despliegue y servicios externos
 
 - **GitHub Pages** desde la rama `main`, carpeta raíz: cada push a `main` publica.
-- **Servicios externos:** Google Fonts, CDN de Higgsfield (imágenes), WhatsApp (`wa.me`) y el cliente de correo del
+- **Servicios externos:** Google Fonts, WhatsApp (`wa.me`) y el cliente de correo del
   visitante (`mailto:`).
 
 ## Pendientes
@@ -67,5 +68,4 @@ Ninguna. Es una página estática sin backend ni claves.
 - Revisar y confirmar los datos de contacto de `CONTACTO_WHATSAPP` y `CONTACTO_EMAIL` (marcados en el código como
   «cambiar por el real»), y valorar si deben estar escritos en el código público.
 - Dominio propio y analítica de visitas/conversiones.
-- Guardar copia propia de las imágenes (dependen de un CDN externo).
 - Decidir su relación con la web corporativa de Partners IA Solutions (contenidos parecidos) para no duplicar mensajes.
